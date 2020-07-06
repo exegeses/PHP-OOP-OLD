@@ -2,8 +2,9 @@
     require 'helper.php';
     require 'Persona1.php';
     $objPersona = new Persona();
-
-    mostrar($objPersona);
+    $objPersona->setNombre('Ronnie');
+    $objPersona->setApellido('Woods');
+    //mostrar($objPersona);
 
 ?>
 <!doctype html>
@@ -14,6 +15,9 @@
 </head>
 <body>
     <h1>Implementando Persona</h1>
+    <?php
+        echo $objPersona->verDatos();
+    ?>
 
 </body>
 </html>
