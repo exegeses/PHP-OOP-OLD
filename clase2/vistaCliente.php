@@ -1,4 +1,5 @@
 <?php
+
     require 'Persona.php';
     require 'Cliente.php';
     $Cliente = new Cliente('Cosme', 'Fulanito', 25841);
