@@ -9,8 +9,8 @@
     include 'includes/nav.php';
 ?>
 
-        <main role="main" class="inner cover">
-            <h1 class="cover-heading">Panel de administración de regiones</h1>
+        <main class="bg-light">
+            <h1 class="text-dark">Panel de administración de regiones</h1>
 
             <table class="table table-bordered table-stripped table-hover">
                 <thead class="thead-light">
@@ -49,9 +49,7 @@
             </table>
 
 
-
         </main>
-
 <?php
     include 'includes/footer.php';
 ?>
