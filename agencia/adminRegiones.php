@@ -18,7 +18,7 @@
                         <th>#</th>
                         <th>Región</th>
                         <th colspan="2" class="text-center">
-                            <a href="" class="btn btn-dark">
+                            <a href="formAgregarRegion.php" class="btn btn-dark">
                                 Agregar  <i class="far fa-plus-square"></i>
                             </a>
                         </th>
