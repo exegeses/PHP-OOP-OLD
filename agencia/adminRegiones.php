@@ -9,17 +9,17 @@
     include 'includes/nav.php';
 ?>
 
-        <main class="bg-light">
-            <h1 class="text-dark">Panel de administración de regiones</h1>
+        <main class="container bg-light rounded">
+            <h1 class="py-3">Panel de administración de regiones</h1>
 
             <table class="table table-bordered table-stripped table-hover">
-                <thead class="thead-light">
+                <thead class="thead-dark">
                     <tr>
                         <th>#</th>
                         <th>Región</th>
-                        <th colspan="2">
-                            <a href="" class="btn btn-success">
-                                Agregar
+                        <th colspan="2" class="text-center">
+                            <a href="" class="btn btn-dark">
+                                Agregar  <i class="far fa-plus-square"></i>
                             </a>
                         </th>
                     </tr>
@@ -32,13 +32,13 @@
                         <td><?= $region['regID'] ?></td>
                         <td><?= $region['regNombre'] ?></td>
                         <td>
-                            <a href="" class="btn btn-warning">
-                                Modificar
+                            <a href="" class="btn btn-outline-secondary">
+                                Modificar  <i class="far fa-edit"></i>
                             </a>
                         </td>
                         <td>
-                            <a href="" class="btn btn-danger">
-                                Eliminar
+                            <a href="" class="btn btn-outline-secondary">
+                                Eliminar  <i class="far fa-trash-alt"></i>
                             </a>
                         </td>
                     </tr>

@@ -1,4 +1,4 @@
-        <footer class="mastfoot mt-auto">
+        <footer class="container mastfoot mt-auto">
             <div class="inner">
                 <p>Copyleft <?= date('Y') ?> - Todos los derechos reservados.</p>
             </div>

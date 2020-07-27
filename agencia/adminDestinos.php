@@ -9,21 +9,21 @@
     include 'includes/nav.php';
 ?>
 
-        <main class="bg-light">
-            <h1 class="text-dark">Panel de administración de destinos</h1>
+        <main class="container bg-light rounded">
+            <h1 class="py-3">Panel de administración de destinos</h1>
 
             <table class="table table-bordered table-stripped table-hover">
-                <thead class="thead-light">
+                <thead class="thead-dark">
                     <tr>
                         <th>#</th>
                         <th>Destino (aeropuerto)</th>
                         <th>Región</th>
                         <th>Precio</th>
                         <th>Totales</th>
-                        <th>Disponibles</th>
-                        <th colspan="2">
-                            <a href="" class="btn btn-success">
-                                Agregar
+                        <th>Disp</th>
+                        <th colspan="2" class="text-center">
+                            <a href="" class="btn btn-dark">
+                                Agregar  <i class="far fa-plus-square"></i>
                             </a>
                         </th>
                     </tr>
@@ -36,17 +36,17 @@
                         <td><?= $destino['destID'] ?></td>
                         <td><?= $destino['destNombre'] ?></td>
                         <td><?= $destino['regNombre'] ?></td>
-                        <td><?= $destino['destPrecio'] ?></td>
+                        <td>$<?= $destino['destPrecio'] ?></td>
                         <td><?= $destino['destAsientos'] ?></td>
                         <td><?= $destino['destDisponibles'] ?></td>
                         <td>
-                            <a href="" class="btn btn-warning">
-                                Modificar
+                            <a href="" class="btn btn-outline-secondary">
+                                Modificar  <i class="far fa-edit"></i>
                             </a>
                         </td>
                         <td>
-                            <a href="" class="btn btn-danger">
-                                Eliminar
+                            <a href="" class="btn btn-outline-secondary">
+                                Eliminar  <i class="far fa-trash-alt"></i>
                             </a>
                         </td>
                     </tr>
